@@ -1,0 +1,493 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #d9cfee;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: rgb(126, 43, 204);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.fa-heart {
+  background: none;
+}
+
+.nav-items {
+  margin-right: 50px;
+  padding: 20px;
+}
+
+.nav-items a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: dashed;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 15px;
+  color: rgb(126, 43, 204);
+}
+
+.nav-items a:hover {
+  color: black;
+}
+
+.nav-btn {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 35px;
+  background-color: rgb(126, 43, 204);
+  color: white;
+  border: rgb(126, 43, 204) 2px solid;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-btn:hover {
+  color: rgb(126, 43, 204);
+  background-color: white;
+  border: rgb(126, 43, 204) 2px solid;
+}
+
+.heroContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.hero-para {
+  padding: px;
+  width: 40%;
+}
+
+hr {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hero-para h1 {
+  padding-left: 70px;
+  color: rgb(126, 43, 204);
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
+.hero-para p {
+  padding-left: 70px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-weight: 550;
+}
+
+.btn-donate {
+  background-color: rgb(126, 43, 204);
+  color: white;
+  border: rgb(126, 43, 204) 2px solid;
+  padding: 13px;
+  margin-top: 25px;
+  margin-left: 4.3rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-discover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(126, 43, 204);
+  border: rgb(126, 43, 204) 2px solid;
+  padding: 13px;
+  margin-left: 23px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-donate:hover {
+  color: rgb(126, 43, 204);
+  background-color: white;
+  border: rgb(126, 43, 204) 2px solid;
+}
+
+.btn-discover:hover {
+  color: white;
+  background-color: rgb(126, 43, 204);
+  border: rgb(126, 43, 204) 2px solid;
+}
+
+.hero-contribution {
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.hero-contribution h2 {
+  color: rgb(126, 43, 204);
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
+.cont1 {
+  padding: 0px 50px;
+  text-align: center;
+}
+
+.cont1 p {
+  font-family: "Poppins", sans-serif;
+}
+
+.card-para {
+  margin-top: 10px;
+}
+
+.card-para h1 {
+  text-align: center;
+  color: rgb(126, 43, 204);
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-para p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.cards {
+  display: flex;
+  padding: 30px 80px;
+}
+.cards1 {
+  border: 2px solid #be97dd;
+  text-align: center;
+  padding: 60px 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.home-icon {
+  margin: 15px;
+}
+
+.home-para h2 {
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.home-para {
+  margin-bottom: 15px;
+}
+
+.home-para p {
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-link a {
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(126, 43, 204);
+  font-weight: bold;
+}
+
+.card-link a:hover {
+  color: black;
+}
+
+.fa-solid {
+  font-size: 28px;
+}
+
+.goal-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.goal-para h1 {
+  text-align: center;
+  color: rgb(126, 43, 204);
+  font-family: "Poppins", sans-serif;
+}
+
+.goal-para p {
+  text-align: justify;
+  margin: 30px 150px 0px 160px;
+  font-family: "Poppins", sans-serif;
+}
+
+.goal-img {
+  padding-left: 90px;
+  margin-bottom: 25px;
+}
+
+.donation {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 35px;
+}
+
+.goal-donate {
+  text-align: center;
+}
+
+.goal-donate h3 {
+  color: rgb(126, 43, 204);
+  font-family: "Poppins", sans-serif;
+}
+
+.goal-donate p {
+  margin-top: 15px;
+  color: rgb(126, 43, 204);
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-donate-2 {
+  background-color: rgb(126, 43, 204);
+  color: white;
+  border: rgb(126, 43, 204) 2px solid;
+  padding: 11px;
+  margin-top: 40px;
+  margin-left: 158px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-donate-2:hover {
+  color: rgb(126, 43, 204);
+  background-color: white;
+  border: rgb(126, 43, 204) 2px solid;
+}
+
+.card-para-2 {
+  margin-top: 80px;
+}
+.card-para-2 h1 {
+  text-align: center;
+  color: rgb(126, 43, 204);
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-para-2 p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  margin: 40px;
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-donate-3 {
+  background-color: rgb(126, 43, 204);
+  color: white;
+  border: rgb(126, 43, 204) 2px solid;
+  padding: 11px;
+  margin-left: 65px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-donate-3:hover {
+  color: rgb(126, 43, 204);
+  background-color: white;
+  border: rgb(126, 43, 204) 2px solid;
+}
+
+.address i,
+.contact i {
+  margin: 0px 10px;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 55px;
+}
+
+.formtxt {
+  margin: 20px auto;
+}
+
+.txt-msg {
+  margin: 0px auto;
+}
+
+.formtxt input {
+  padding: 10px;
+  border: none;
+  width: 49%;
+  border: 2px solid #be97dd;
+}
+
+.formtxt input::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+.txt-msg textarea {
+  padding: 25px;
+  border: none;
+  border: 2px solid #be97dd;
+}
+
+.txt-msg textarea::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-submit {
+  background-color: rgb(126, 43, 204);
+  color: white;
+  border: rgb(126, 43, 204) 2px solid;
+  padding: 5px 25px;
+  margin-left: auto;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-submit:hover {
+  color: rgb(126, 43, 204);
+  background-color: white;
+  border: rgb(126, 43, 204) 2px solid;
+}
+
+footer {
+  display: flex;
+  gap: 90px;
+  margin: 20px;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.quick-links li {
+  list-style: none;
+  margin: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 550;
+}
+
+.address-final li {
+  list-style: none;
+  font-weight: bolder;
+}
+
+.social {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.fa-brands {
+  margin: 5px;
+}
+
+.quick-links {
+  padding: 15px;
+}
+
+.quick-links h3 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.comp-name {
+  margin-top: 14px;
+}
+.comp-name h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(126, 43, 204);
+}
+
+.comp-cont {
+  margin: 3px;
+  font-family: "Poppins", sans-serif;
+}
+
+.newsletter {
+  padding: 15px;
+}
+
+.newsletter h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.email-last {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.email-last input {
+  padding: 15px;
+  border: none;
+  border: 2px solid #be97dd;
+}
+
+.email-last input::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+.email-last button {
+  position: relative;
+  top: 0px;
+  right: 40px;
+  padding: 6px;
+  background-color: rgb(126, 43, 204);
+  color: white;
+  border: rgb(126, 43, 204) 2px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.email-last button:hover {
+  color: rgb(126, 43, 204);
+  background-color: white;
+  border: rgb(126, 43, 204) 2px solid;
+}
+.email-icon {
+  font-size: 19px;
+  background: none;
+}
